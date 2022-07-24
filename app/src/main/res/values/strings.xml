@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RevisionApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_image">Logo image</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="sign_in_to_continue">Sign in to Continue.</string>
+    <string name="welcome_to_revisionapp">Welcome to RevisionApp</string>
+    <string name="sign_up_to_continue">Sign up to Continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="past_papers">Past papers</string>
+    <string name="notes">Notes</string>
+    <string name="notes_icon">Notes Icon</string>
+    <string name="assignments">Assignments</string>
+    <string name="open_forum">Open forum</string>
+    <string name="profile">Profile</string>
+    <string name="help">Help</string>
+</resources>
