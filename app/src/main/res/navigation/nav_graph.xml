@@ -28,7 +28,7 @@
             app:destination="@id/profileFragment" />
         <action
             android:id="@+id/action_HomeFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
+            app:destination="@id/assignmentFragment" />
     </fragment>
     <fragment
         android:id="@+id/NotesFragment"
@@ -39,23 +39,49 @@
         <action
             android:id="@+id/action_NotesFragment_to_HomeFragment"
             app:destination="@id/HomeFragment" />
+        <action
+            android:id="@+id/action_NotesFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+        <action
+            android:id="@+id/action_NotesFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
     </fragment>
     <fragment
         android:id="@+id/forumFragment"
         android:name="com.example.revisionapp.fragments.ForumFragment"
-        android:label="ForumFragment" />
+        android:label="ForumFragment" >
+        <action
+            android:id="@+id/action_forumFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+    </fragment>
     <fragment
         android:id="@+id/pastPapersFragment"
         android:name="com.example.revisionapp.fragments.PastPapersFragment"
-        android:label="PastPapersFragment" />
+        android:label="PastPapersFragment" >
+        <action
+            android:id="@+id/action_pastPapersFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.revisionapp.fragments.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_supportFragment"
+            app:destination="@id/supportFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/settingsFragment"
-        android:name="com.example.revisionapp.fragments.SettingsFragment"
-        android:label="SettingsFragment" />
+        android:id="@+id/assignmentFragment"
+        android:name="com.example.revisionapp.fragments.AssignmentFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_assignmentFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+    </fragment>
     <fragment
         android:id="@+id/supportFragment"
         android:name="com.example.revisionapp.fragments.SupportFragment"
@@ -67,10 +93,14 @@
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_HomeFragment"
-            app:destination="@id/HomeFragment" />
+            app:destination="@id/HomeFragment"
+            app:popUpTo="@id/HomeFragment" />
         <action
             android:id="@+id/action_loginFragment_to_signUpFragment"
             app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
@@ -80,5 +110,34 @@
         <action
             android:id="@+id/action_signUpFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.example.revisionapp.fragments.AdminFragment"
+        android:label="AdminFragment" >
+        <action
+            android:id="@+id/action_adminFragment_to_pastPapersFragment"
+            app:destination="@id/pastPapersFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_assignmentFragment"
+            app:destination="@id/assignmentFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_NotesFragment"
+            app:destination="@id/NotesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.example.revisionapp.fragments.AddNoteFragment"
+        android:label="fragment_add_note"
+        tools:layout="@layout/fragment_add_note" >
+        <action
+            android:id="@+id/action_addNoteFragment_to_NotesFragment"
+            app:destination="@id/NotesFragment" />
     </fragment>
 </navigation>

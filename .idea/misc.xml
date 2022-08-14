@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable-v24/baseline_logout_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable-v24/ic_baseline_apps_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable-v24/ic_baseline_circle_notifications_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable-v24/ic_baseline_dark_mode_24.xml" value="0.2203125" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable/home_top_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.165234375" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.2203125" />
@@ -11,14 +15,27 @@
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2203125" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/drawable/input_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/assignment_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_add_note.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_add_past_papers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_assignment.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_forum.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_notes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_past_papers.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_settings.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/fragment_support.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/image_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/new_res.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/note_view_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobinKeya/AndroidStudioProjects/RevisionApp/app/src/main/res/layout/notes_item.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

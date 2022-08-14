@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239311134283",
+    "project_id": "revisionapp-cc424",
+    "storage_bucket": "revisionapp-cc424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239311134283:android:9b771e3b288d2c9ad777ce",
+        "android_client_info": {
+          "package_name": "com.example.revisionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239311134283-q6ffotrfrqu62tj4ak3eqv15r49eooim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC5bWzMAzghDntMUDjjfbVZvNSWzqNN7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239311134283-q6ffotrfrqu62tj4ak3eqv15r49eooim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

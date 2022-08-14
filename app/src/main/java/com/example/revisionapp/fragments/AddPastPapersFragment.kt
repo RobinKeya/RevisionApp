@@ -7,18 +7,18 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.revisionapp.R
 
-class SettingsFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
+class AddPastPapersFragment : Fragment() {
+    private lateinit var _binding: com.example.revisionapp.databinding.FragmentAddPastPapersBinding
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
+        _binding = FragmentAddPastPapersBinding.inflate(inflater,container,false)
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_settings, container, false)
+        return binding.root
     }
 
 }

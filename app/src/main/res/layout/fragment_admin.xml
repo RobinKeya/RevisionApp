@@ -12,7 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".fragments.HomeFragment">
+        tools:context=".fragments.AdminFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/top_layout"
@@ -203,13 +203,13 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/ic_baseline_forum_24"
+                        app:srcCompat="@drawable/ic_baseline_people_24"
                         android:contentDescription="@string/notes_icon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/open_forum"
+                        android:text="@string/view_students"
                         android:layout_marginTop="12dp"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -272,13 +272,13 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/ic_baseline_help_24"
+                        app:srcCompat="@drawable/ic_baseline_announcement_24"
                         android:contentDescription="@string/notes_icon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/help"
+                        android:text="@string/announcements"
                         android:layout_marginTop="12dp"
                         android:textSize="18sp" />
                 </LinearLayout>
